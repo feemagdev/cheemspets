@@ -69,7 +69,7 @@ class TokenService with ChangeNotifier {
     double tempTotal24hAgoValue = 0.0;
     double tempChange24hPercent = 0.0;
     final apiUrl =
-        'https://stg-api.unmarshal.io/v1/bsc/address/$address/assets?auth_key=${ApiKeys.tokenApi}';
+        'https://api.unmarshal.com/v1/bsc/address/$address/assets?auth_key=${ApiKeys.tokenApi}';
     final response = await http.get(Uri.parse(apiUrl));
     List<dynamic> data = jsonDecode(response.body);
     for (var element in data) {
