@@ -20,6 +20,13 @@
 # is commented out by default.
 #.vscode/
 
+#iOS related
+ios/Podfile.lock
+ios/Flutter/Debug.xcconfig
+ios/Flutter/Release.xcconfig
+ios/Runner.xcodeproj/project.pbxproj
+ios/Runner.xcworkspace/contents.xcworkspacedata
+
 # Flutter/Dart/Pub related
 **/doc/api/
 **/ios/Flutter/.last_build_id
